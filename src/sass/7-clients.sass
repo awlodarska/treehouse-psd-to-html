@@ -1,0 +1,28 @@
+@import "settings"
+.clients
+  text-align: center
+  margin-bottom: 30px
+  padding: 40px
+  .clients-title
+    font-size: 3rem
+  .clients-text
+    font-size: 1.7rem
+    margin: 10px 30px 30px 30px
+  .clients-opinions
+    font-size: 1.8rem
+    margin: auto 30px
+    color: #777777
+    .client-name
+      color: $main-color
+      font-size: 1.6rem
+@media (min-width:768px)
+  .clients
+    .clients-opinions
+      display: flex
+      align-items: center
+      justify-content: center
+      .client-text
+        background-color: #f9f9f9
+        padding: 40px 50px
+        margin-left: 20px
+        width: 900px

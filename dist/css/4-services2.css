@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%;
+  width: 100%; }
+
+body {
+  width: 100%; }
+
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif; }
+
+p {
+  font-family: "Roboto Slab", serif; }
+
+.btn {
+  background-color: #7cc576;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 50px;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+  display: inline-block;
+  transition: all 0.3s ease-in-out; }
+
+.menu-visible {
+  display: block !important; }
+
+.btn:hover {
+  background-color: #ffffff;
+  color: #7cc576;
+  transform: scale(1.05); }
+
+@media (min-width: 768px) {
+  html {
+    font-size: 75%; } }
+
+@media only screen and (min-width: 1224px) {
+  html {
+    font-size: 80%; } }
+
+.services2 .services2-left img {
+  display: none; }
+
+.services2 .services2-right {
+  background: url("../img/transp.png"), url("../img/bg2.png") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #ffffff; }
+  .services2 .services2-right .services2-title {
+    font-size: 3.3rem;
+    padding: 50px 10px 20px 20px; }
+    .services2 .services2-right .services2-title span {
+      color: #7cc576; }
+  .services2 .services2-right .services2-text {
+    color: #cccccc;
+    font-size: 1.4rem;
+    padding: 0 15px 20px 20px; }
+  .services2 .services2-right .services2-list {
+    list-style-type: none; }
+    .services2 .services2-right .services2-list li {
+      background: url("../img/checkmark.png") left center no-repeat;
+      background-size: 55px;
+      padding: 20px 0 20px 70px;
+      margin-left: 20px;
+      font-size: 1.4rem;
+      font-family: "Roboto Slab", serif;
+      color: #cccccc; }
+  .services2 .services2-right .services2-btn {
+    margin: 60px auto 40px 40px;
+    padding: 30px 40px;
+    font-size: 1.4rem; }
+
+@media (min-width: 768px) {
+  .services2 {
+    display: flex; }
+    .services2 .services2-left {
+      width: 30%;
+      background-color: #e9e9e9;
+      z-index: 1; }
+      .services2 .services2-left img {
+        display: block;
+        position: relative;
+        top: 10%;
+        left: 30px; }
+    .services2 .services2-right {
+      width: 70%;
+      z-index: 10; } }
+
+@media only screen and (min-width: 1224px) {
+  .services2-right {
+    padding: 50px 0 50px 80px; }
+    .services2-right .services2-text {
+      width: 60%; } }

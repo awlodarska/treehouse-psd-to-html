@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%;
+  width: 100%; }
+
+body {
+  width: 100%; }
+
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif; }
+
+p {
+  font-family: "Roboto Slab", serif; }
+
+.btn {
+  background-color: #7cc576;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 50px;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+  display: inline-block;
+  transition: all 0.3s ease-in-out; }
+
+.menu-visible {
+  display: block !important; }
+
+.btn:hover {
+  background-color: #ffffff;
+  color: #7cc576;
+  transform: scale(1.05); }
+
+@media (min-width: 768px) {
+  html {
+    font-size: 75%; } }
+
+@media only screen and (min-width: 1224px) {
+  html {
+    font-size: 80%; } }
+
+.culture {
+  background-color: #f9f9f9;
+  text-align: center;
+  padding: 60px 25px; }
+  .culture .culture-title {
+    font-size: 3.5rem;
+    padding-bottom: 7px; }
+  .culture .culture-text {
+    font-size: 1.7rem;
+    color: #777777; }
+  .culture .culture-row .culture-row-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .culture .culture-row .culture-row-box .culture-image-border {
+      width: 80px;
+      background-color: #f9f9f9;
+      height: 80px;
+      border: #777777 solid 3px;
+      padding: 15px;
+      margin-top: 30px;
+      margin-bottom: 10px;
+      border-radius: 50%;
+      display: flex;
+      flex-shrink: 0;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      z-index: 5; }
+      .culture .culture-row .culture-row-box .culture-image-border h3 {
+        font-size: 1.8rem; }
+      .culture .culture-row .culture-row-box .culture-image-border p {
+        font-size: 1.3rem; }
+
+@media (min-width: 768px) {
+  .culture {
+    padding: 50px 60px; }
+    .culture .culture-row {
+      display: flex; }
+      .culture .culture-row .culture-row-box {
+        margin: auto 20px; } }
+
+@media only screen and (min-width: 1224px) {
+  .culture {
+    padding: 50px 140px; }
+    .culture .culture-row .culture-row-box {
+      margin: auto 30px; }
+      .culture .culture-row .culture-row-box .culture-image-border {
+        width: 100px !important;
+        height: 100px !important; }
+        .culture .culture-row .culture-row-box .culture-image-border img {
+          transform: scale(1.2); } }

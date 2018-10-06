@@ -44,3 +44,31 @@ p {
 @media only screen and (min-width: 1224px) {
   html {
     font-size: 80%; } }
+
+.clients {
+  text-align: center;
+  margin-bottom: 30px;
+  padding: 40px; }
+  .clients .clients-title {
+    font-size: 3rem; }
+  .clients .clients-text {
+    font-size: 1.7rem;
+    margin: 10px 30px 30px 30px; }
+  .clients .clients-opinions {
+    font-size: 1.8rem;
+    margin: auto 30px;
+    color: #777777; }
+    .clients .clients-opinions .client-name {
+      color: #7cc576;
+      font-size: 1.6rem; }
+
+@media (min-width: 768px) {
+  .clients .clients-opinions {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .clients .clients-opinions .client-text {
+      background-color: #f9f9f9;
+      padding: 40px 50px;
+      margin-left: 20px;
+      width: 900px; } }

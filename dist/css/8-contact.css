@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%;
+  width: 100%; }
+
+body {
+  width: 100%; }
+
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif; }
+
+p {
+  font-family: "Roboto Slab", serif; }
+
+.btn {
+  background-color: #7cc576;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 50px;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+  display: inline-block;
+  transition: all 0.3s ease-in-out; }
+
+.menu-visible {
+  display: block !important; }
+
+.btn:hover {
+  background-color: #ffffff;
+  color: #7cc576;
+  transform: scale(1.05); }
+
+@media (min-width: 768px) {
+  html {
+    font-size: 75%; } }
+
+@media only screen and (min-width: 1224px) {
+  html {
+    font-size: 80%; } }
+
+.contact {
+  background-color: #7cc576;
+  color: #ffffff;
+  text-align: center;
+  font-size: 2.5rem;
+  padding: 30px 20px; }
+  .contact .btn-contact {
+    background-color: #7cc576;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1.6rem;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: all 0.3s ease-in-out; }
+  .contact .btn-contact:hover {
+    background-color: #ffffff;
+    outline: none;
+    color: #7cc576;
+    transform: scale(1.05); }
+
+@media (min-width: 768px) {
+  .contact {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+  .logo {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; }
+    .logo img {
+      margin: 20px 20px; } }
+
+@media only screen and (min-width: 1224px) {
+  .contact {
+    height: 350px; }
+    .contact .btn-contact {
+      font-size: 1.2rem;
+      padding: 15px 20px; } }

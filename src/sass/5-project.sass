@@ -1,0 +1,70 @@
+@import "settings"
+.project
+  .project-heading
+    font-size: 3.3rem
+    margin-top: 40px
+    text-align: center
+    margin-bottom: 15px
+  .project-text
+    text-align: center
+    color: #777777
+    font-size: 1.8rem
+    margin-bottom: 40px
+  .project-right
+    padding-left: 10px
+    padding-right: 20px
+    h3
+      font-size: 1.8rem
+    p
+      font-size: 1.4rem
+      color: #777777
+      margin-top: 10px
+    a
+      color: $main-color
+      text-decoration: none
+      font-family: $font-headings
+      font-size: 1.6rem
+      text-transform: uppercase
+      font-weight: bold
+    .project-right-row
+      display: flex
+      margin: 5px
+      .project-row-text
+        margin-left: 20px
+        h4
+          font-size: 1.7rem
+          text-transform: none
+        p
+          font-size: 1.5rem
+          color: #777777
+      .project-row-box
+        width: 73px
+        height: 73px
+        border: black solid 3px
+        margin: 7px
+        border-radius: 50%
+        display: flex
+        flex-shrink: 0
+        align-items: center
+        justify-content: center
+.project-left
+  img
+    width: 100%
+@media (min-width:768px)
+  .project
+    margin-bottom: 20px
+    .project-row
+      display: flex
+      width: 100%
+@media only screen and (min-width : 1224px)
+  .project
+    margin-bottom: 20px
+    .project-row
+      display: flex
+      max-width: 100%
+      .project-right
+        margin-top: 100px
+      .project-left
+        img
+          min-width: 600px
+          min-height: 600px

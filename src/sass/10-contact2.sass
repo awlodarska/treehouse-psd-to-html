@@ -1,0 +1,44 @@
+@import "settings"
+.contact2
+  background-color: #222222
+  color: #cccccc
+  font-size: 1.8rem
+  padding: 40px 0 20px 50px
+  h3
+    color: #ffffff
+  .contact2-row
+    .contact2-column
+      display: flex
+      align-items: baseline
+      margin-top: 20px
+      img
+        margin-right: 20px
+        width: 25px
+        height: 20px
+    .posts
+      a
+        text-decoration: none
+        color: #cccccc
+        font-family: $font-text
+    a:hover
+      color: $main-color
+      .tweet-text
+        .hashtag
+          font-weight: bold
+        .time
+          font-size: 1rem
+@media (min-width:768px)
+  .contact2
+    display: flex
+    font-size: 1.2rem
+    .contact2-row
+      flex-basis: 33.3%
+      .contact2-column
+        margin: 6px
+@media only screen and (min-width : 1224px)
+  .contact2
+    padding: 80px 140px
+    font-size: 1.3rem
+    .contact2-row
+      .contact2-column
+        margin-top: 20px!important

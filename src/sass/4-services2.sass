@@ -1,0 +1,53 @@
+@import "settings"
+.services2
+  .services2-left
+    img
+      display: none
+  .services2-right
+    background: url("../img/transp.png"), url("../img/bg2.png") no-repeat
+    background-size: cover
+    background-attachment: fixed
+    color: #ffffff
+    .services2-title
+      font-size: 3.3rem
+      padding: 50px 10px 20px 20px
+      span
+        color: $main-color
+    .services2-text
+      color: #cccccc
+      font-size: 1.4rem
+      padding: 0 15px 20px 20px
+    .services2-list
+      list-style-type: none
+      li
+        background: url("../img/checkmark.png") left center no-repeat
+        background-size: 55px
+        padding: 20px 0 20px 70px
+        margin-left: 20px
+        font-size: 1.4rem
+        font-family: $font-text
+        color: #cccccc
+    .services2-btn
+      margin: 60px auto 40px 40px
+      padding: 30px 40px
+      font-size: 1.4rem
+@media (min-width:768px)
+  .services2
+    display: flex
+    .services2-left
+      width: 30%
+      background-color: #e9e9e9
+      z-index: 1
+      img
+        display: block
+        position: relative
+        top: 10%
+        left: 30px
+    .services2-right
+      width: 70%
+      z-index: 10
+@media only screen and (min-width : 1224px)
+  .services2-right
+    padding: 50px 0 50px 80px
+    .services2-text
+      width: 60%

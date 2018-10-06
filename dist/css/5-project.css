@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%;
+  width: 100%; }
+
+body {
+  width: 100%; }
+
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif; }
+
+p {
+  font-family: "Roboto Slab", serif; }
+
+.btn {
+  background-color: #7cc576;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 50px;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+  display: inline-block;
+  transition: all 0.3s ease-in-out; }
+
+.menu-visible {
+  display: block !important; }
+
+.btn:hover {
+  background-color: #ffffff;
+  color: #7cc576;
+  transform: scale(1.05); }
+
+@media (min-width: 768px) {
+  html {
+    font-size: 75%; } }
+
+@media only screen and (min-width: 1224px) {
+  html {
+    font-size: 80%; } }
+
+.project .project-heading {
+  font-size: 3.3rem;
+  margin-top: 40px;
+  text-align: center;
+  margin-bottom: 15px; }
+
+.project .project-text {
+  text-align: center;
+  color: #777777;
+  font-size: 1.8rem;
+  margin-bottom: 40px; }
+
+.project .project-right {
+  padding-left: 10px;
+  padding-right: 20px; }
+  .project .project-right h3 {
+    font-size: 1.8rem; }
+  .project .project-right p {
+    font-size: 1.4rem;
+    color: #777777;
+    margin-top: 10px; }
+  .project .project-right a {
+    color: #7cc576;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-weight: bold; }
+  .project .project-right .project-right-row {
+    display: flex;
+    margin: 5px; }
+    .project .project-right .project-right-row .project-row-text {
+      margin-left: 20px; }
+      .project .project-right .project-right-row .project-row-text h4 {
+        font-size: 1.7rem;
+        text-transform: none; }
+      .project .project-right .project-right-row .project-row-text p {
+        font-size: 1.5rem;
+        color: #777777; }
+    .project .project-right .project-right-row .project-row-box {
+      width: 73px;
+      height: 73px;
+      border: black solid 3px;
+      margin: 7px;
+      border-radius: 50%;
+      display: flex;
+      flex-shrink: 0;
+      align-items: center;
+      justify-content: center; }
+
+.project-left img {
+  width: 100%; }
+
+@media (min-width: 768px) {
+  .project {
+    margin-bottom: 20px; }
+    .project .project-row {
+      display: flex;
+      width: 100%; } }
+
+@media only screen and (min-width: 1224px) {
+  .project {
+    margin-bottom: 20px; }
+    .project .project-row {
+      display: flex;
+      max-width: 100%; }
+      .project .project-row .project-right {
+        margin-top: 100px; }
+      .project .project-row .project-left img {
+        min-width: 600px;
+        min-height: 600px; } }
