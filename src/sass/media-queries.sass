@@ -1,0 +1,189 @@
+//header
+//main-header
+//services
+//services2
+//project
+//culture
+//clients
+//contact
+//footer
+
+@media (min-width:768px)
+  html
+    font-size: 75%
+    //header
+    .navbar
+      height: 10%
+      nav
+        .navbar-menu
+          display: flex!important
+          justify-content: flex-end
+          position: absolute
+          top: 10%
+          right: 3%
+          li
+            padding: 15px
+            border-bottom: none!important
+        .hamburger-menu
+          display: none
+
+    main
+      //main-header
+      .main-header
+        display: flex
+        flex-direction: column
+        align-items: center
+
+      //services
+      .services-text
+      margin: 0
+      .services-box-row
+        display: flex
+
+      .services2
+        display: flex
+        .services2-left
+          width: 30%
+          background-color: #e9e9e9
+          z-index: 1
+          img
+            display: block
+            position: relative
+            top: 10%
+            left: 30px
+        .services2-right
+          width: 70%
+          z-index: 10
+      .project
+        margin-bottom: 20px
+        .project-row
+          display: flex
+          width: 100%
+      //culture
+      .culture
+        padding: 50px 60px
+        .culture-row
+          display: flex
+          .culture-row-box
+            margin: auto 20px
+      //clients
+      .clients
+        .clients-opinions
+          display: flex
+          align-items: center
+          justify-content: center
+          .client-text
+            background-color: #f9f9f9
+            padding: 40px 50px
+            margin-left: 20px
+            width: 900px
+      //contact
+      .contact
+        height: 300px
+        display: flex
+        flex-direction: column
+        align-items: center
+        justify-content: center
+      .logo
+        flex-direction: row
+        align-items: center
+        justify-content: center
+        img
+          margin: 20px 20px
+      //contact2
+      .contact2
+        display: flex
+        font-size: 1.2rem
+        .contact2-row
+          flex-basis: 33.3%
+          .contact2-column
+            margin: 6px
+
+      //footer
+      .footer
+        display: flex
+        flex-direction: row
+        justify-content: space-around
+
+
+@media only screen and (min-width : 1224px)
+  html
+    font-size: 80%
+    //header
+    .navbar
+      height: 13%
+      .navbar-logo
+        position: absolute
+        top: 28%
+        left: 5%
+      nav
+        .navbar-menu
+          position: absolute
+          top: 20%
+    //main-header
+    .main-header
+      .header-title
+        margin-bottom: 20px
+      .header-btn
+        //font-size: 1.5rem
+        margin-top: 50px
+        padding: 26px
+    //services
+    .services
+      margin: 50px 70px
+      .services-text
+        margin-bottom: 40px
+      .services-box-row
+        .services-box
+          margin: auto 60px
+          .services-box-text
+            font-size: 1.2rem
+          img
+            transform: scale(1.3)
+            margin: 30px auto 20px
+    //services2
+    .services2-right
+      padding: 50px 0 50px 80px
+      .services2-text
+        width: 60%
+    //project
+    .project
+      margin-bottom: 20px
+      .project-row
+        display: flex
+        max-width: 100%
+        .project-right
+          margin-top: 100px
+        .project-left
+          img
+            min-width: 600px
+            min-height: 600px
+    //culture
+    .culture
+      padding: 50px 140px
+      .culture-row
+        .culture-row-box
+          margin: auto 30px
+          .culture-image-border
+            width: 100px!important
+            height: 100px!important
+            img
+              transform: scale(1.2)
+    //contact
+    .contact
+      height: 350px
+      .btn-contact
+        font-size: 1.2rem
+        padding: 15px 20px
+    //logos
+    .logo
+      img
+        transform: scale(1.3)
+        margin: 90px 60px!important
+    //contact2
+    .contact2
+      padding: 80px 140px
+      font-size: 1.3rem
+      .contact2-row
+        .contact2-column
+          margin-top: 20px!important

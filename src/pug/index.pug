@@ -1,0 +1,196 @@
+doctype html
+html
+  head
+    link(rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous")
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    link(href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto+Slab" rel="stylesheet")
+    link(rel="stylesheet" href="../css/style.css")
+    link(rel="stylesheet" href="../css/media-queries.css")
+    title Treehouse Project
+  body
+
+    header.navbar
+      a(href="#" alt="Go back to the homepage" class="navbar-logo")
+        svg(xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="29" height="29" class="svg" viewBox="0 0 29 29")
+          image(xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAdCAMAAABhTZc9AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABLFBMVEUAAAB8xXZ8xXZ8xXZ8xXZ8xXZ8xXZ8xXZ8xXZ8xXZ8xXZ8xXZ8xXZ8xXZ8xXZ8xXZ8xXZ8xXZ8xXZ8xXZ8xXZ8xXZ8xXZ8xXZ8xXZ8xXZ8xXZ8xXZ8xXZ8xXZ8xXZ8xXZ8xXZ8xXZ8xXZ8xXZ8xXZ8xXZ8xXZ8xXZ8xXZ8xXZ8xXZ8xXZ8xXZ8xXZ8xXZ8xXZ8xXZ8xXZ8xXZ8xXZ8xXZ8xXZ8xXZ8xXZ8xXZ8xXZ8xXZ8xXZ8xXZ8xXZ8xXZ8xXZ8xXZ8xXZ8xXZ8xXZ8xXZ8xXZ8xXZ8xXZ8xXZ8xXZ8xXZ8xXZ8xXZ8xXZ8xXZ8xXZ8xXZ8xXZ8xXal16G+4rut26qd1JiEyX+V0JD3+/b////m9OW23rKMzIfO6cvF5sPv+O7e8N3W7dQAAADTXIh3AAAAUnRSTlMAGFF3iH1XIwloytYPWObvbwOkvhUKwtkcutINfqIo+Eamy/s6bJGt2gX2HSr3Htz8BrCV/T+s0QEsToOy2xAir70SZOsEddfjhhclXoKYmWUuckMMlwAAAAFiS0dEAIgFHUgAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAFDSURBVCjPbZNnQ8IwEIZPAQegghPBXRXFgdu6wK24DZ2hFMv//xGmTdKR9v3QvrmnuSSXK4CvgcFUOp0ZGoa4RkaziCmXygtwbByFNFEohidOIkFT0z6cmUUxzZUYLM6jBJUrlC6gRC16cGnZ9W1FUTU9gldcuupZw8REHasb0DW3BhL1FqayA74OsMG9ybBp8MgmQJV7myTu/YVxGWCLUze1qZFvsMMi0jbUONVoWpU8+d53INgjXbVLsMYiu7Dn076HO7rt032oo0hqjHu6yQIHh3AUpFbpoQx+4hxAIVQ73bIdx+zz4TFA6USovo353FNSyjOBtrFKzblM6IUkYKzQ96V3hVcCNWgxqqw3rpMu/6bBWiefjcN602+7yq0I7+5DLSs/PIZZLfMUbffG8wtnr623hJ/l/ePz67v18ysHoX8o3csuPravBAAAAABJRU5ErkJggg==" width="29" height="29")
+        | treehouse
+        nav
+            ul.navbar-menu
+              li: a(href="#") home
+              li: a(href="#") about
+              li: a(href="#") blog
+              li: a(href="#") portfolio
+              li: a(href="#") contact
+            button(type="button" title="Open menu" class="hamburger-menu"): i(class="fas fa-bars fa-lg")
+
+    main
+      .main-header
+        h1.header-title creative digital 
+          br 
+          | solutions
+        p.header-text Proin iaculis purus consequat sem cure.
+        a(href="#" class="btn header-btn") view portfolio
+        
+      .services
+        h2.services-title proffesional services
+        p.services-text Proin iaculis purus consequat sem cure
+        .services-box-row
+          .services-box
+            img(src="img/heart.svg" alt="heart")
+            h3.services-box-title beautiful designs
+            p.services-box-text Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.
+          .services-box
+            img(src="img/mobile.svg" alt="mobile phone")
+            h3.services-box-title responsive web
+            p.services-box-text Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.
+          .services-box
+            img(src="img/graph.svg" alt="graph")
+            h3.services-box-title marketing tools
+            p.services-box-text Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.
+          
+      .services2
+        .services2-left
+          img(src="img/gear.svg")
+        .services2-right
+          h2.services2-title just relax 
+            br
+            span &#38; 
+            | let us do the heavy lifting
+          p.services2-text Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.
+          ul.services2-list
+            li Initial Setup &#38; Customizations
+            li Regular Updates
+            li Round The Clock Support
+          a(href="#" class="btn services2-btn") learn more
+        
+      .project
+        h2.project-heading latest project
+        p.project-text Proin iaculis purus consequat sem cure
+        .project-row
+          .project-right
+            h3 developing a framework
+            p Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.
+            .project-right-row
+              .project-row-box
+                img(src="img/basket.svg")
+              .project-row-text
+                h4 E-Commerce Ready
+                p Proin iaculis purus consequat sem cure digni ssim.
+            .project-right-row
+              .project-row-box
+                img(src="img/laptop.svg")
+              .project-row-text
+                h4 Powerful SEO Features
+                p Proin iaculis purus consequat sem cure.
+            .project-right-row
+              .project-row-box
+                img(src="img/locked.svg")
+              .project-row-text
+                h4 Secure Encryption
+                p Proin iaculis purus consequat sem cure iaculis purus.
+            p Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit aenean rhoncus posuere odio in.
+            a(href="#" class="link") view details 
+              i(class="fas fa-arrow-right")
+          .project-left
+            img(src="img/ipad.png")
+      .culture
+        h2.culture-title culture &#38; values
+        p.culture-text Proin iaculis purus consequat cure.
+        .culture-row
+          .culture-row-box
+            .culture-image-border
+              img(src="img/music.svg")
+            h3 work-life balance
+            p Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.
+          .culture-row-box
+            .culture-image-border
+              img(src="img/graph2.svg")
+            h3 quality over quantity
+            p Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.
+          .culture-row-box
+            .culture-image-border
+              img(src="img/star.svg")
+            h3 deliver excellence
+            p Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.
+      .clients
+        h2.clients-title our awesome clients
+        p.clients-text Proin iaculis purus consequat sem cure. 
+        .clients-opinions
+          img(src="img/client-icon.svg")
+          .client-text
+            p.opinion-text "Proin iaculis purus consequat sem cure  digni ssim donec porttitora entum suscipit aenean rhoncus."
+            p.client-name - Jamie Richardson, Founder of Cocoa Media
+        .clients-opinions
+          img(src="img/client-icon.svg")
+          .client-text
+            p.opinion-text "Proin iaculis purus consequat sem cure  digni ssim donec porttitora entum suscipit aenean rhoncus."
+            p.client-name - Jamie Richardson, Founder of Cocoa Media
+      
+      .contact
+        h2 ready to talk about your next project?
+        button(type="button" title="Contact us" class="btn-contact")
+          | Contact us
+      .logo
+        img(src="img/logo-envato.png")
+        img(src="img/logo-wordpress.png")
+        img(src="img/logo-tuts.png")
+        img(src="img/logo-microlancer.png")
+      .contact2
+        .contact2-row
+          h3 contact us
+          .address.contact2-column
+            img(src="img/contact/location.svg")
+            .address-text
+              p 55 Main St.
+              p Toronto,
+              p ON M1H 3A5
+          .phone-number.contact2-column
+            img(src="img/contact/iphone.svg")
+            p (416) 555-5252
+          .email.contact2-column
+            img(src="img/contact/email.svg")
+            p hello@treehouse.com
+        .contact2-row
+          h3 latest posts
+          .contact2-column.posts
+            img(src="img/contact/news.svg")
+            a(href="#") Made With Love In Toronto
+          .contact2-column.posts
+            img(src="img/contact/photo.svg")
+            a(href="#") Startup News &#38; Emerging Tech
+          .contact2-column.posts
+            img(src="img/contact/news.svg")
+            a(href="#") Bitcoin Will Soon Rule The World
+          .contact2-column.posts
+            img(src="img/contact/news.svg")
+            a(href="#") Wearable Technology On The Rise
+          .contact2-column.posts
+            img(src="img/contact/media.svg")
+            a(href="#") Learn Web Design In 30 Days!
+        .contact2-row
+          h3 latest tweets
+          .contact2-column
+            img(src="img/contact/twitter.svg")
+            .tweet-text
+              p Confucius: Life is really simple, but we insist on making it complicated.
+              p.hashtag #famousquotes
+              p.time 8 mins ago
+          .contact2-column
+            img(src="img/contact/twitter.svg")
+            .tweet-text
+              p Grab the Free Treehouse web template at FreebiesXpress!
+              p.hashtag #freebies #templates
+              p.time 2 days ago
+            
+      .footer
+        p.copyright &#9400; Copyright 2014 FreebiesXpress.com
+        .socials
+          .socials.item
+            a(href="#"): img(src="img/twitter.png")
+          .socials.item
+            a(href="#"): img(src="img/facebook.png")
+          .socials.item
+            a(href="#"): img(src="img/pinterest.png")
+          .socials.item
+            a(href="#"): img(src="img/google.png")
+  script(src="../js/main.js")
